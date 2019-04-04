@@ -8,6 +8,12 @@ header{
   margin-right: 155px;
   width: 70%;
 
+  @media(max-width: 500px){
+      margin-left: 11px;
+      width: 96%;
+
+  }
+
 
 }
     .header-content {
@@ -16,16 +22,32 @@ header{
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
-  margin-left: 148px;
+  margin-left: 170px;
+  @media (max-width: 500px) {
+    display: block;
+    margin: 10px 20px;
+    width: 97%;
 }
+  }
 }
-.home {
+
+.container-home {
+  @media (max-width: 500px) {
+    display: block;
+    margin: 10px 9px;
+    width: 97%;
+}
 
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media (max-width: 500px) {
+      width :50%;
+      
+  }
+  }
 
    
     
@@ -79,4 +101,4 @@ header{
       margin-bottom: 30px;
     }
   }
-}// home
+// home
