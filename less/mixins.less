@@ -1,1 +1,25 @@
 // Mixins in here
+.custom-layout ( @justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.bordered-dot {
+    border-bottom:2px dotted black;
+    margin-right: 155px;
+    padding-bottom: 43px;
+    padding-top: 43px;
+}
+
+.buttons-blue {
+    color: white;
+    border-radius: 28px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+}
